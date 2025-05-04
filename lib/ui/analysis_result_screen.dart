@@ -46,19 +46,19 @@ class AnalysisResultScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Static Code Analysis"),
         backgroundColor: Colors.deepPurpleAccent,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.download),
-            tooltip: 'Download PDF',
-            onPressed: () => _generatePdf(context),
-          ),
-          // FloatingActionButton.extended(
-          //   onPressed: () => _generatePdf(context),
-          //   icon: Icon(Icons.download),
-          //   label: Text('Download Report'),
-          //   backgroundColor: Colors.deepPurpleAccent,
-          // ),
-        ],
+        // actions: [
+        //   IconButton(
+        //     icon: const Icon(Icons.download),
+        //     tooltip: 'Download PDF',
+        //     onPressed: () => _generatePdf(context),
+        //   ),
+        //   // FloatingActionButton.extended(
+        //   //   onPressed: () => _generatePdf(context),
+        //   //   icon: Icon(Icons.download),
+        //   //   label: Text('Download Report'),
+        //   //   backgroundColor: Colors.deepPurpleAccent,
+        //   // ),
+        // ],
       ),
       body: Container(
         decoration: const BoxDecoration(
