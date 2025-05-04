@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "codesense-ai-88778",
+          "appId": "1:887600116059:android:340ccbd7415a1046352a7e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "codesense-ai-88778",
+          "appId": "1:887600116059:ios:5f0471b85f99bdad352a7e",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "codesense-ai-88778",
+          "appId": "1:887600116059:ios:5f0471b85f99bdad352a7e",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "codesense-ai-2025",
+          "configurations": {
+            "web": "1:45960572180:web:e32277f53d2976eb3fa601"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "source": "functions",
+    "runtime": "nodejs18",
+    "deployment": {
+      "platform": "gcfv1"
+    },
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ]
+  }
+}
