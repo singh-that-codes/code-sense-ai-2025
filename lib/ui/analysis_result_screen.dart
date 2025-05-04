@@ -44,8 +44,8 @@ class AnalysisResultScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Static Code Analysis"),
-        backgroundColor: Colors.deepPurpleAccent,
+        title: const Text("CodeSense.ai - Analysis Result"),
+        //backgroundColor: Colors.deepPurpleAccent,
         // actions: [
         //   IconButton(
         //     icon: const Icon(Icons.download),
